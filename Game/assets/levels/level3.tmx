@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="32" tileheight="32">
+ <imagelayer name="bg14" x="-80" y="-56">
+  <image source="../img/bg14.png"/>
+  <properties>
+   <property name="fixed" value="true"/>
+   <property name="mask" value="bg14-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf04" x="848" y="672">
+  <image source="../img/pf04.png"/>
+  <properties>
+   <property name="mask" value="pf04-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf04" x="400" y="696">
+  <image source="../img/pf04.png"/>
+  <properties>
+   <property name="mask" value="pf04-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf04" x="-200" y="688">
+  <image source="../img/pf04.png"/>
+  <properties>
+   <property name="mask" value="pf04-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf04" x="1488" y="584">
+  <image source="../img/pf04.png"/>
+  <properties>
+   <property name="mask" value="pf04-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="fg13" x="200" y="544">
+  <image source="../img/fg13.png"/>
+  <properties>
+   <property name="fg" value="true"/>
+   <property name="id" value="img1"/>
+   <property name="mask" value="fg13"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg15" x="552" y="184">
+  <image source="../img/bg15-gs.png"/>
+  <properties>
+   <property name="mask" value="bg15-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg09" x="200" y="544">
+  <image source="../img/bg09.png"/>
+  <properties>
+   <property name="id" value="img2"/>
+   <property name="mask" value="bg09"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf05" x="-8" y="248">
+  <image source="../img/pf05.png"/>
+  <properties>
+   <property name="mask" value="pf05-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf06" x="632" y="248">
+  <image source="../img/pf06.png"/>
+  <properties>
+   <property name="mask" value="pf06-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf07" x="224" y="248">
+  <image source="../img/pf07.png"/>
+  <properties>
+   <property name="mask" value="pf07-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="fg12" x="64" y="32">
+  <image source="../img/fg12.png"/>
+  <properties>
+   <property name="mask" value="fg12-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg11" x="24" y="584">
+  <image source="../img/bg11.png"/>
+  <properties>
+   <property name="mask" value="bg11-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg06" x="160" y="192">
+  <image source="../img/bg06.png"/>
+  <properties>
+   <property name="mask" value="bg06-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg07" x="328" y="200">
+  <image source="../img/bg07.png"/>
+  <properties>
+   <property name="mask" value="bg07-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="fg04" x="-40" y="120">
+  <image source="../img/fg04.png"/>
+  <properties>
+   <property name="fg" value="true"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="fg04" x="-48" y="544">
+  <image source="../img/fg04.png"/>
+  <properties>
+   <property name="fg" value="true"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf16" x="616" y="816">
+  <image source="../img/pf16.png"/>
+  <properties>
+   <property name="mask" value="pf16-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf16" x="1344" y="368">
+  <image source="../img/pf16.png"/>
+  <properties>
+   <property name="mask" value="pf16-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg08" x="1048" y="336">
+  <image source="../img/bg08.png"/>
+  <properties>
+   <property name="mask" value="bg08-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg08" x="968" y="336">
+  <image source="../img/bg08.png"/>
+  <properties>
+   <property name="mask" value="bg08-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf16" x="680" y="496">
+  <image source="../img/pf16.png"/>
+  <properties>
+   <property name="mask" value="pf16-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf16" x="552" y="464">
+  <image source="../img/pf16.png"/>
+  <properties>
+   <property name="mask" value="pf16-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf17" x="880" y="112">
+  <image source="../img/pf17.png"/>
+  <properties>
+   <property name="mask" value="pf17-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf17" x="1472" y="480">
+  <image source="../img/pf17.png"/>
+  <properties>
+   <property name="mask" value="pf17-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf18" x="1280" y="656">
+  <image source="../img/pf18.png"/>
+  <properties>
+   <property name="mask" value="pf18-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf18" x="1296" y="672">
+  <image source="../img/pf18.png"/>
+  <properties>
+   <property name="mask" value="pf18-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf18" x="1296" y="696">
+  <image source="../img/pf18.png"/>
+  <properties>
+   <property name="mask" value="pf18-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf19" x="1344" y="552">
+  <image source="../img/pf19.png"/>
+  <properties>
+   <property name="mask" value="pf19-gs"/>
+  </properties>
+ </imagelayer>
+ <objectgroup name="obj">
+  <properties>
+   <property name="fixed" value="true"/>
+  </properties>
+  <object name="spawn" type="spawn" x="256" y="96" width="32" height="32"/>
+  <object name="floor2" type="floor" x="0" y="800" width="1600" height="32"/>
+  <object name="gate" type="special" x="32" y="704" width="128" height="32">
+   <properties>
+    <property name="collide" value="[&quot;playerCollisionGroup&quot;]"/>
+    <property name="count" value="10"/>
+    <property name="countCB" value=""/>
+    <property name="target" value="player"/>
+    <property name="targetCB" value="level_win"/>
+   </properties>
+  </object>
+  <object name="floor2" type="floor" x="0" y="-32" width="1600" height="32"/>
+  <object name="floor2" type="floor" x="0" y="0" width="32" height="736"/>
+  <object name="floor2" type="floor" x="1600" y="0" width="32" height="800"/>
+  <object name="floor2" type="floor" x="416" y="736" width="944" height="64"/>
+  <object name="rock_pf" type="special" x="288" y="752" width="128" height="32">
+   <properties>
+    <property name="collide" value="[&quot;playerCollisionGroup&quot;]"/>
+    <property name="count" value="1"/>
+    <property name="countCB" value="popcorn_count"/>
+    <property name="killTag" value="floor1,floor2,img1,img2"/>
+    <property name="target" value="popcorn,player,badpc,grain"/>
+    <property name="targetCB" value=""/>
+   </properties>
+  </object>
+  <object name="floor1" type="floor" x="256" y="576" width="32" height="160">
+   <properties>
+    <property name="id" value="floor1"/>
+   </properties>
+  </object>
+  <object name="floor2" type="floor" x="416" y="576" width="56" height="160">
+   <properties>
+    <property name="id" value="floor2"/>
+   </properties>
+  </object>
+  <object name="floor2" type="floor" x="992" y="352" width="256" height="32"/>
+  <object name="rock_pf" type="special" x="1360" y="584" width="136" height="32">
+   <properties>
+    <property name="collide" value="[&quot;playerCollisionGroup&quot;]"/>
+    <property name="count" value="1"/>
+    <property name="countCB" value="grain_count"/>
+    <property name="killTag" value=""/>
+    <property name="target" value="grain,popcorn"/>
+    <property name="targetCB" value=""/>
+   </properties>
+  </object>
+  <object name="floor2" type="floor" x="32" y="288" width="832" height="96"/>
+  <object name="grain_converter" type="special" x="256" y="256" width="32" height="32">
+   <properties>
+    <property name="collide" value="[]"/>
+    <property name="count" value="1"/>
+    <property name="countCB" value="grainconvert_count"/>
+    <property name="killTag" value=""/>
+    <property name="target" value="player"/>
+    <property name="targetCB" value=""/>
+   </properties>
+  </object>
+  <object name="floor2" type="floor" x="1304" y="672" width="48" height="32"/>
+  <object name="floor2" type="floor" x="848" y="704" width="512" height="32"/>
+  <object name="floor2" type="floor" x="184" y="264" width="72" height="24"/>
+  <object name="floor2" type="floor" x="296" y="192" width="64" height="96"/>
+  <object name="floor2" type="floor" x="144" y="168" width="240" height="32"/>
+  <object name="floor2" type="floor" x="1360" y="768" width="136" height="32"/>
+  <object name="floor2" type="floor" x="1496" y="608" width="104" height="32"/>
+  <object name="floor2" type="floor" x="1496" y="640" width="104" height="160"/>
+  <object name="floor2" type="floor" x="1472" y="488" width="32" height="24"/>
+  <object name="floor2" type="floor" x="288" y="776" width="128" height="24"/>
+  <object name="floor2" type="floor" x="688" y="504" width="40" height="48"/>
+  <object name="floor2" type="floor" x="1344" y="384" width="64" height="32"/>
+  <object name="floor2" type="emitter" x="1416" y="768" width="32" height="24">
+   <properties>
+    <property name="predef" value="flame"/>
+   </properties>
+  </object>
+  <object name="rock_pf" type="special" x="1360" y="736" width="136" height="32">
+   <properties>
+    <property name="collide" value="[&quot;playerCollisionGroup&quot;]"/>
+    <property name="count" value="1"/>
+    <property name="countCB" value="grain_count"/>
+    <property name="killTag" value=""/>
+    <property name="target" value="grain,player,popcorn"/>
+    <property name="targetCB" value=""/>
+   </properties>
+  </object>
+  <object name="floor2" type="floor" x="552" y="448" width="56" height="56"/>
+  <object name="floor2" type="floor" x="0" y="736" width="288" height="64"/>
+ </objectgroup>
+ <layer name="bg" width="50" height="25" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQo/oAAAAACAtwGoDuXYiBMAAA==
+  </data>
+ </layer>
+ <imagelayer name="fg10" x="160" y="192">
+  <image source="../img/fg10.png"/>
+  <properties>
+   <property name="fg" value="true"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="fg09" x="328" y="200">
+  <image source="../img/fg09.png"/>
+  <properties>
+   <property name="fg" value="true"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="fg11" x="552" y="472">
+  <image source="../img/fg11.png"/>
+  <properties>
+   <property name="fg" value="true"/>
+  </properties>
+ </imagelayer>
+</map>

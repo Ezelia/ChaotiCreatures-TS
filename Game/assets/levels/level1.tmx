@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32">
+ <imagelayer name="bg05" x="-48" y="80">
+  <image source="../img/bg05.png"/>
+  <properties>
+   <property name="mask" value="bg05-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg04" x="392" y="-48">
+  <image source="../img/bg04.png"/>
+  <properties>
+   <property name="mask" value="bg04-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf03" x="200" y="552">
+  <image source="../img/pf03.png"/>
+  <properties>
+   <property name="mask" value="pf03-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf03" x="472" y="576">
+  <image source="../img/pf03.png"/>
+  <properties>
+   <property name="mask" value="pf03-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf03" x="-40" y="552">
+  <image source="../img/pf03.png"/>
+  <properties>
+   <property name="mask" value="pf03-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg10" x="704" y="472">
+  <image source="../img/bg10.png"/>
+  <properties>
+   <property name="mask" value="bg10-gs"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="fg04" x="736" y="456">
+  <image source="../img/fg04.png"/>
+  <properties>
+   <property name="fg" value="true"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="pf03" y="216">
+  <image source="../img/pf03.png"/>
+  <properties>
+   <property name="mask" value="pf03-gs"/>
+  </properties>
+ </imagelayer>
+ <objectgroup name="obj">
+  <object name="spawn" type="spawn" x="72" y="160" width="32" height="32"/>
+  <object name="floor1" type="floor" x="0" y="256" width="440" height="96"/>
+  <object name="floor2" type="floor" x="0" y="640" width="832" height="32"/>
+  <object name="gate" type="special" x="672" y="608" width="128" height="32">
+   <properties>
+    <property name="collide" value="[&quot;playerCollisionGroup&quot;]"/>
+    <property name="count" value="2"/>
+    <property name="countCB" value=""/>
+    <property name="target" value="player"/>
+    <property name="targetCB" value="level_win"/>
+   </properties>
+  </object>
+  <object name="rock1" type="gameobj" x="160" y="568" width="32" height="40">
+   <properties>
+    <property name="mass" value="90"/>
+    <property name="shape" value="rock4"/>
+    <property name="sprite" value="rock4"/>
+   </properties>
+  </object>
+  <object name="floor2" type="floor" x="-32" y="-32" width="864" height="32"/>
+  <object name="floor2" type="floor" x="-32" y="0" width="32" height="672"/>
+  <object name="floor2" type="floor" x="800" y="0" width="32" height="640"/>
+  <object name="rock1" type="gameobj" x="400" y="544" width="64" height="64">
+   <properties>
+    <property name="mass" value="100"/>
+    <property name="shape" value="rock1"/>
+    <property name="sprite" value="rock1"/>
+   </properties>
+  </object>
+  <object name="floor2" type="floor" x="0" y="608" width="672" height="32"/>
+  <object name="smoke 1" type="emitter" x="320" y="256" width="32" height="32">
+   <properties>
+    <property name="predef" value="smoke"/>
+   </properties>
+  </object>
+  <object name="rock1" type="gameobj" x="640" y="568" width="32" height="40">
+   <properties>
+    <property name="mass" value="90"/>
+    <property name="shape" value="rock4"/>
+    <property name="sprite" value="rock4"/>
+   </properties>
+  </object>
+  <object name="rock1" type="gameobj" x="584" y="544" width="56" height="64">
+   <properties>
+    <property name="mass" value="100"/>
+    <property name="shape" value="rock5"/>
+    <property name="sprite" value="rock5"/>
+   </properties>
+  </object>
+  <object name="rock1" type="gameobj" x="240" y="544" width="56" height="64">
+   <properties>
+    <property name="mass" value="100"/>
+    <property name="shape" value="rock5"/>
+    <property name="sprite" value="rock5"/>
+   </properties>
+  </object>
+  <object name="rock1" type="gameobj" x="32" y="544" width="64" height="64">
+   <properties>
+    <property name="mass" value="100"/>
+    <property name="shape" value="rock1"/>
+    <property name="sprite" value="rock1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="bg" width="25" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkbBUAcARPTJAtAHAAA=
+  </data>
+ </layer>
+ <imagelayer name="fg08" x="200" y="-16">
+  <image source="../img/fg08.png"/>
+  <properties>
+   <property name="fg" value="true"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="fg05" x="-40" y="80">
+  <image source="../img/fg05.png"/>
+  <properties>
+   <property name="fg" value="true"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="fg06" x="200" y="-40">
+  <image source="../img/fg06.png"/>
+  <properties>
+   <property name="fg" value="true"/>
+  </properties>
+ </imagelayer>
+</map>

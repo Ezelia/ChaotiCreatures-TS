@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="lib/tween.js"></script>
+    <script src="lib/phaser.js"></script>
+    <script src="game.all.js"></script>
+    <script src="lib/ezps.js"></script>
+</head>
+<body style="padding:0px;margin:0px">
+    <script>
+        var mygame = new Ezelia.Engine();
+        mygame.on('gameover', function () {
+            //alert('game Over');
+            
+        });
+        mygame.on('levelwin', function () {
+            //console.log('WIN!!');
+        });
+
+
+        var game = mygame.game;
+    </script>
+</body>
+</html>

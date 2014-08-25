@@ -26,8 +26,6 @@
     <Content Include="lib\ezps.js" />
     <Content Include="lib\phaser.js" />
     <Content Include="lib\tween.js" />
-    <Content Include="particles.txt" />
-    <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="core\deprecated.txt" />
@@ -47,14 +45,6 @@
     <TypeScriptCompile Include="locals\en.ts" />
     <TypeScriptCompile Include="locals\translation.ts" />
     <TypeScriptCompile Include="util\math.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="web.Debug.config">
-      <DependentUpon>web.config</DependentUpon>
-    </None>
-    <None Include="web.Release.config">
-      <DependentUpon>web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\levels\" />
